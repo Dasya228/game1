@@ -11,7 +11,7 @@
 <body>
 <div class="container-wrap">
     <div class="alert-container" id="alert">
-        <button id="close">
+        <button class="close">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
         </button>
         <h2 style="color: red">Выберите число от 1 до 10!</h2>
@@ -27,8 +27,12 @@
        <p>Ваш выбор: <span id="userRes"></span></p>
        <p>Выбор компьютера: <span id="compRes"></span></p>
    </div>
-    <h2 id="win" style=" cursor: pointer; color: green; display: none">Вы выиграли!&#x1F604</h2>
-    <h2 id="end" style="cursor: pointer;  color: red; display:none">Попробуйте еще раз&#128546</h2>
+    <h2 id="win" style=" cursor: pointer; color: green; display: none">Вы выиграли!&#x1F604<button class="close">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+    </button></h2>
+    <h2 id="end" style="cursor: pointer;  color: red; display:none">Попробуйте еще раз&#128546 <button class="close">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+    </button></h2>
 </div>
 
 

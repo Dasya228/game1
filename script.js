@@ -3,7 +3,7 @@ const button = document.querySelector("#button")
 const compRes=document.querySelector("#compRes")
 const userRes = document.querySelector("#userRes")
 const alert=document.querySelector("#alert")
-const buttonClose = document.querySelector("#close")
+const buttonClose = document.querySelector(".close")
 const win = document.querySelector("#win")
 const end = document.querySelector("#end")
 
